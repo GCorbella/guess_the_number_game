@@ -5,7 +5,7 @@ while infinity == True:
     while new_game == 1:
         name = input("Please, enter your name: ")
 
-        print(f"Hello {name}, you have 8 tries to guess the number")
+        print(f"Hello {name}, you have 8 tries to guess the number.")
         tries = 8
         number = randint(0,101)
 
